@@ -1,5 +1,5 @@
 #!/usr/bin/node
-import request from "request";
+const request = require("request");
 const API_URL = "https://swapi-api.alx-tools.com/api";
 
 if (process.argv.length > 2) {
